@@ -4,20 +4,7 @@ const bodyParser = require('body-parser');
 const multer = require('multer');
 const mongoose = require('mongoose');
 
-// const mongo = require('mongodb').MongoClient
-// const url = 'mongodb://localhost:8000'
-// mongo.connect(url, {
-//     useNewUrlParser: true,
-//     useUnifiedTopology: true
-//   }, (err, client) => {
-//   if (err) {
-//     console.error(err)
-//     return
-//   }
-//   //...
-// })
 
-// const db = client.db('product')
 
 const server = express();
 
@@ -60,11 +47,16 @@ const upload = multer({
 server.post('/', upload.single('productImage'), (req, res) => {
     console.log(req.file);
 
-    const product = new Product({
-        _id: new mongoose.Types.ObjectId(),
-        productImage: req.file.path,
-        created_at: req.body.created_at
-    })
+    // const product = new Product({
+    //     _id: new mongoose.Types.ObjectId(),
+    //     productImage: req.file.path,
+    //     created_at: req.body.created_at
+    // })
+
+    const product = Product.create({
+        productImage : productImage,
+        created_at: created_at
+    });
 
     console.log('product', product)
     if (!req.file){

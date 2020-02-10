@@ -1,9 +1,6 @@
 const mongoose = require("./database");
 
-const username = 'htran'
-const password = 'p%40ssw0rd%279%27%21'
-
-mongoose.connect(`mongodb+srv://htran:EWx9AXukq9a0FnPa@cluster0-jtlmu.mongodb.net/test?retryWrites=true&w=majority`, {
+mongoose.connect(`mongodb+srv://htran:ujH9BRibXmVxQeqS@cluster0-jtlmu.mongodb.net/test?retryWrites=true&w=majority`, {
     useNewUrlParser: true,
     useCreateIndex: true,
     useUnifiedTopology: true,

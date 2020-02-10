@@ -1,6 +1,6 @@
 const mongoose = require('mongoose');
 
-const dbPath = "mongodb+srv://htran2:<Baovuongtoi@123>@cluster0-jtlmu.mongodb.net/test?retryWrites=true&w=majority"
+const dbPath = "mongodb+srv://htran:<AJmOaJ8NtXu6kCnU>@cluster0-jtlmu.mongodb.net/test?retryWrites=true&w=majority"
 
 mongoose.connect(dbPath, {
     useNewUrlParser: true,

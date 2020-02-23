@@ -37,7 +37,7 @@ class MapScreen extends Component {
             draggable
             coordinate={{ latitude: 37.8461571, longitude: -122.5283655 }}>
             <Callout>
-              <Text>You are here! (1% Chance of Fire) </Text>
+              <Text>You are here! (15% Chance of Fire) </Text>
             </Callout>
           </Marker>
           {this.state.markers.map((marker, idx) => (

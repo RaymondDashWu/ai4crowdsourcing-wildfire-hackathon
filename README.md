@@ -2,7 +2,7 @@
 
 ## Frontend Contribution by Jennifer Ma:
 
-![image](Crowdsource4Mankind/src/images/screen_shot_simulator.png)
+<img src="Crowdsource4Mankind/src/images/screen_shot_simulator.png" alt="crowdsource4mankind screenshot" width="300">
 
 ### Description
 Crowdsourcing4Mankind is a mobile app geared towards the early detection of wildfires. The goal is to reduce the time it takes for a fire to be reported to authorities after it begins. The current average time is 20 minutes and Crowdsourcing4Mankind aims to reduce this to 5 minutes.

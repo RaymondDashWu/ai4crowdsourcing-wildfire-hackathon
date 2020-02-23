@@ -7,7 +7,8 @@
  */
 
 import React, { Component } from 'react';
-import MapScreen from './src/MapScreen';
+import MapScreen from './src/components/MapScreen';
+import Dashboard from './src/components/Dashboard';
 
 import {
   SafeAreaView,
@@ -18,19 +19,12 @@ import {
   StatusBar,
 } from 'react-native';
 
-import {
-  Header,
-  LearnMoreLinks,
-  Colors,
-  DebugInstructions,
-  ReloadInstructions,
-} from 'react-native/Libraries/NewAppScreen';
-
 class App extends Component {
   render() {
     return (
       <View>
         <MapScreen />
+        <Dashboard />
       </View>
     );
   }

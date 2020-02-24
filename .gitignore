@@ -8,6 +8,7 @@
 
 # Custom. Add this to any new modifications
 .DS_Store
+*.pth
 
 .ipynb_checkpoints
 */.ipynb_checkpoints/*

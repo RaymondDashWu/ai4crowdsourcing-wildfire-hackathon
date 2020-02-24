@@ -8,7 +8,14 @@ https://github.com/jenniferhm
 ## Machine Learning by Raymond Wu:
 https://github.com/RaymondDashWu
 
-TODO Put image of screenshot + model
+Note: Model has been converted from PyTorch to ONNX to Tensorflow for the purposes on the hackathon. Things may not work!
+https://github.com/onnx/onnx-tensorflow
+
+ONNX model in case things don't work:
+TODO Link
+
+<img src="https://i.imgur.com/eiyxwZm.png" width="300">
+Note: This screenshot is not 100% representative of the end product. Could not find a way to expose the Swift class to React Native!
 
 ## API Design by Hong Tran:
 https://github.com/Jessiehongtran
@@ -17,7 +24,9 @@ Hong's branch can be found here:
 https://github.com/RaymondDashWu/ai4crowdsourcing-wildfire-hackathon/tree/image-API-branch
 
 ### Description
-Crowdsourcing4Mankind is a mobile app geared towards the early detection of wildfires. The goal is to reduce the time it takes for a fire to be reported to authorities after it begins. The app was created as part of a hackathon run by [AI for Mankind](https://github.com/aiformankind)
+Crowdsourcing4Mankind is a mobile app geared towards the early detection of wildfires. The goal is to reduce the time it takes for a fire to be reported to authorities after it begins. The app was created as part of a hackathon run by [AI for Mankind](https://github.com/aiformankind). Specifically their [Challenge IA: Smoke vs No Smoke using Entire Image](https://github.com/aiformankind/lets-stop-wildfires-hackathon/blob/master/wildfire_smoke_challenge_1A.md)
+
+
 
 #### Disclosure:
 Crowdsourcing4Mankind is not complete. Key features and their current status are highlighted below. Please clone and create a pull request if you would like to contribute.

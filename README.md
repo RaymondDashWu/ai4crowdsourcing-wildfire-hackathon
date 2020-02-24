@@ -10,6 +10,12 @@ https://github.com/RaymondDashWu
 
 TODO Put image of screenshot + model
 
+## API Design by Hong Tran:
+https://github.com/Jessiehongtran
+
+Hong's branch can be found here:
+https://github.com/RaymondDashWu/ai4crowdsourcing-wildfire-hackathon/tree/image-API-branch
+
 ### Description
 Crowdsourcing4Mankind is a mobile app geared towards the early detection of wildfires. The goal is to reduce the time it takes for a fire to be reported to authorities after it begins. The app was created as part of a hackathon run by [AI for Mankind](https://github.com/aiformankind)
 
